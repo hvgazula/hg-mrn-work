@@ -86,6 +86,27 @@ def multishot_gd(X1, site_01_y1, X2, site_02_y1, X3, site_03_y1, X4,
             v = vt / (1 - beta2**count)
 
             wc = wp - eta * m / (np.sqrt(v) + eps)
+            
+# =============================================================================
+#             pObj1 = objective(wp, X1, y1, lamb=0)
+#             pObj2 = objective(wp, X2, y2, lamb=0)
+#             pObj3 = objective(wp, X3, y3, lamb=0)
+#             pObj4 = objective(wp, X4, y4, lamb=0)
+#             pObj5 = objective(wp, X5, y5, lamb=0)
+#             pObj6 = objective(wp, X6, y6, lamb=0)
+#             pObj7 = objective(wp, X7, y7, lamb=0)
+#             
+#             cObj1 = objective(wc, X1, y1, lamb=0)
+#             cObj2 = objective(wc, X2, y2, lamb=0)
+#             cObj3 = objective(wc, X3, y3, lamb=0)
+#             cObj4 = objective(wc, X4, y4, lamb=0)
+#             cObj5 = objective(wc, X5, y5, lamb=0)
+#             cObj6 = objective(wc, X6, y6, lamb=0)
+#             cObj7 = objective(wc, X7, y7, lamb=0)
+#             
+#             pObj = pObj1 + pObj2 + pObj3 + pObj4 + pObj5 + pObj6 + pObj7
+#             cObj = cObj1 + cObj2 + cObj3 + cObj4 + cObj5 + cObj6 + cObj7
+# =============================================================================
 
             if np.linalg.norm(wc - wp) <= tol:
                 break
