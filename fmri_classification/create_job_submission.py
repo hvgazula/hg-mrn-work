@@ -32,7 +32,7 @@ for start_index, start_val in enumerate(start):
             first_arg, second_arg))
 
     st = os.stat(os.path.join(jobs_folder, file_name))
-    os.chmod(file_name, st.st_mode | stat.S_IEXEC)
+    os.chmod(os.path.join(jobs_folder, file_name), st.st_mode | stat.S_IEXEC)
 
     with open('job.sh', 'a') as fjob:
         fjob.write('screen -dm bash ' + os.path.join(
