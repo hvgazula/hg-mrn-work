@@ -5,6 +5,7 @@ Created on Wed May 30 08:50:26 2018
 
 @author: Harshvardhan
 """
+import os
 import pandas as pd
 import shelve
 import sys
@@ -75,7 +76,7 @@ if __name__ == '__main__':
 
     # %% Write to a file
     print('Writing data to a shelve file')
-    results = shelve.open(file_name)
+    results = shelve.open(os.path.join('Results', file_name))
     results['logistic'] = logreg_efs
     results['linear_svm'] = simple_svm_efs
     results['radial_svm'] = radial_svm_efs
