@@ -10,17 +10,17 @@ import os
 import stat
 from load_data_from_mat import return_X_and_y
 from sklearn.datasets import load_iris
-
-#X, y = return_X_and_y()
 iris = load_iris()
 X, y = iris.data, iris.target
+
+#X, y = return_X_and_y()
 
 print('Creating job_scripts folder')
 jobs_folder = 'job_scripts'
 if not os.path.exists(jobs_folder):
     os.makedirs(jobs_folder)
 
-start = np.arange(1, X.shape[1], 2)
+start = np.arange(1, X.shape[1], 25)
 stop = start - 1
 stop = np.append(stop, X.shape[1])
 
@@ -31,7 +31,7 @@ for start_index, start_val in enumerate(start):
 
     file_name = 'job_{:04}_{:04}.sh'.format(first_arg, second_arg)
     with open(os.path.join(jobs_folder, file_name), 'w') as fsub:
-        fsub.write('cd fmri_classification_armin')
+        fsub.write('echo \'Hello There!\'')
         fsub.write('\n')
         fsub.write('python exhaustive_selection.py {} {}'.format(
             first_arg, second_arg))
