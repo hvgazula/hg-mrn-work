@@ -38,7 +38,7 @@ def perform_efs(curr_model, X, y, min_cols, max_cols):
         curr_model,
         min_features=min_cols,
         max_features=max_cols,
-        print_progress=False,
+        print_progress=True,
         scoring='accuracy',
         cv=5,
         n_jobs=-1)
@@ -75,6 +75,10 @@ if __name__ == '__main__':
     radial_svm_efs = perform_efs(radial_svm, X, y, min_features, max_features)
 
     # %% Write to a file
+    results_folder = 'Results'
+    if not os.path.exists(results_folder):
+        os.makedirs(results_folder)
+
     print('Writing data to a shelve file')
     results = shelve.open(os.path.join('Results', file_name))
     results['logistic'] = logreg_efs
