@@ -46,9 +46,9 @@ def perform_efs(curr_model, X, y, min_cols, max_cols):
     efs1 = efs1.fit(X, y)
 
     df = pd.DataFrame.from_dict(efs1.get_metric_dict()).T
-    df['test_acc'] = df['feature_idx'].apply(
-        lambda x: make_predictions_on_test(efs1, curr_model, X_train, X_test, y_train, y_test, x)
-    )
+#    df['test_acc'] = df['feature_idx'].apply(
+#        lambda x: make_predictions_on_test(efs1, curr_model, X_train, X_test, y_train, y_test, x)
+#    )
 
     return df
 
@@ -59,11 +59,11 @@ if __name__ == '__main__':
     min_features = int(sys.argv[1])
     max_features = int(sys.argv[2])
 
-    file_name = 'Results_{:04}_to_{:04}'.format(min_features, max_features) 
-    
-    test_size = 0.3
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=test_size)
+    file_name = 'Results_{:04}_to_{:04}'.format(min_features, max_features)
+
+#    test_size = 0.3
+#    X_train, X_test, y_train, y_test = train_test_split(
+#        X, y, test_size=test_size)
 
     logreg = LogisticRegression()
     logreg_efs = perform_efs(logreg, X, y, min_features, max_features)
