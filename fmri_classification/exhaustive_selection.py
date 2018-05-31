@@ -10,7 +10,7 @@ import pandas as pd
 import shelve
 import sys
 from load_data_from_mat import return_X_and_y
-from sklearn.model_selection import train_test_split
+from sklearn.datasets import load_iris
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC, SVC
 from mlxtend.feature_selection import ExhaustiveFeatureSelector as EFS
@@ -54,20 +54,21 @@ def perform_efs(curr_model, X, y, min_cols, max_cols):
 
 
 if __name__ == '__main__':
-    X, y = return_X_and_y()
-
+#    X, y = return_X_and_y()
+    iris = load_iris()
+    X, y = iris.data, iris.target
+    
+    print('Reading Arguments')
     min_features = int(sys.argv[1])
     max_features = int(sys.argv[2])
 
     file_name = 'Results_{:04}_to_{:04}'.format(min_features, max_features)
 
-#    test_size = 0.3
-#    X_train, X_test, y_train, y_test = train_test_split(
-#        X, y, test_size=test_size)
-
+    print('Running Logistic Regression Models')
     logreg = LogisticRegression()
     logreg_efs = perform_efs(logreg, X, y, min_features, max_features)
 
+    print('Running Linear SVM Models')
     simple_svm = LinearSVC()
     simple_svm_efs = perform_efs(simple_svm, X, y, min_features, max_features)
 

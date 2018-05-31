@@ -9,17 +9,22 @@ import numpy as np
 import os
 import stat
 from load_data_from_mat import return_X_and_y
+from sklearn.datasets import load_iris
 
-X, y = return_X_and_y()
+#X, y = return_X_and_y()
+iris = load_iris()
+X, y = iris.data, iris.target
 
+print('Creating job_scripts folder')
 jobs_folder = 'job_scripts'
 if not os.path.exists(jobs_folder):
     os.makedirs(jobs_folder)
 
-start = np.arange(1, X.shape[1], 25)
+start = np.arange(1, X.shape[1], 2)
 stop = start - 1
 stop = np.append(stop, X.shape[1])
 
+print('Writing job submission script files')
 for start_index, start_val in enumerate(start):
     first_arg = start_val
     second_arg = stop[start_index + 1]
@@ -38,5 +43,6 @@ for start_index, start_val in enumerate(start):
         fjob.write('screen -dm bash ' + os.path.join(jobs_folder, file_name))
         fjob.write('\n')
 
+print('Creating the main job.sh file')
 st = os.stat('job.sh')
 os.chmod('job.sh', st.st_mode | stat.S_IEXEC)

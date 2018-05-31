@@ -12,10 +12,12 @@ import scipy.io as sio
 def return_X_and_y():
 
     # Loading X data
+    print('Loading X data')
     X = sio.loadmat('data/X.mat')
     X = X['X']
 
     # Loading y data
+    print('Loading y data')
     y = sio.loadmat('data/labels.mat')
     y = y['labels']
     y = np.reshape(y, (869, ))
