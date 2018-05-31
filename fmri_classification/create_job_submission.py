@@ -31,7 +31,7 @@ for start_index, start_val in enumerate(start):
         fsub.write('python exhaustive_selection.py {} {}'.format(
             first_arg, second_arg))
 
-    st = os.stat(file_name)
+    st = os.stat(os.path.join(jobs_folder, file_name))
     os.chmod(file_name, st.st_mode | stat.S_IEXEC)
 
     with open('job.sh', 'a') as fjob:
