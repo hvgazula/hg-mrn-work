@@ -14,12 +14,10 @@ def return_X_and_y():
     # Loading X data
     X = sio.loadmat('data/X.mat')
     X = X['X']
-    print('Shape of X1 is: ', X.shape)
 
     # Loading y data
     y = sio.loadmat('data/labels.mat')
     y = y['labels']
-    print('Shape of y is: ', y.shape)
     y = np.reshape(y, (869, ))
 
     return X, y
