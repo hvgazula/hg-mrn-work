@@ -20,7 +20,7 @@ for run_index in range(1, max_runs + 1):
 
     file_name = 'run_{:03}.sh'.format(run_index)
     with open(os.path.join(jobs_folder, file_name), 'w') as fsub:
-        fsub.write('echo \'Hello There!\'')
+        fsub.write('echo \'Running \' $0')
         fsub.write('\n')
         fsub.write('python sequential_selection.py {}'.format(
             run_index))

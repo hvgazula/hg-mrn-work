@@ -15,7 +15,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC, SVC
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.metrics import accuracy_score, confusion_matrix
-from sklear.metrics import f1_score, precision_score, recall_score
+from sklearn.metrics import f1_score, precision_score, recall_score
 from mlxtend.feature_selection import SequentialFeatureSelector as SFS
 
 
@@ -83,6 +83,11 @@ if __name__ == '__main__':
     lda = LinearDiscriminantAnalysis()
     lda_sfs = perform_sfs(lda, X_train, X_test, y_train, y_test)
 
+    # %% Write to a file
+    results_folder = 'Results'
+    if not os.path.exists(results_folder):
+        os.makedirs(results_folder)
+        
     print('Writing data to a shelve file')
     results = shelve.open(os.path.join('Results', file_name))
     results['logistic'] = logreg_sfs
