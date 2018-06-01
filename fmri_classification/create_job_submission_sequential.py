@@ -13,7 +13,7 @@ jobs_folder = 'job_scripts'
 if not os.path.exists(jobs_folder):
     os.makedirs(jobs_folder)
 
-max_runs = 10
+max_runs = 50
 
 print('Writing job submission script files')
 for run_index in range(1, max_runs + 1):
