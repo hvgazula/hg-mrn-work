@@ -9,11 +9,8 @@ import numpy as np
 import os
 import stat
 from load_data_from_mat import return_X_and_y
-from sklearn.datasets import load_iris
-iris = load_iris()
-X, y = iris.data, iris.target
 
-#X, y = return_X_and_y()
+X, y = return_X_and_y()
 
 print('Creating job_scripts folder')
 jobs_folder = 'job_scripts'
