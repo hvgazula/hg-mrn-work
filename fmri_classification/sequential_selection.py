@@ -47,7 +47,7 @@ def perform_sfs(curr_classifier, X_train, X_test, y_train, y_test):
         forward=True,
         floating=False,
         scoring='accuracy',
-        cv=10,
+        cv=5,
         n_jobs=-1)
 
     sfs1 = sfs1.fit(X_train, y_train)
@@ -55,7 +55,7 @@ def perform_sfs(curr_classifier, X_train, X_test, y_train, y_test):
     df[[
         'accuracy', 'precision', 'recall', 'f1_score', 'confusion_matrix'
     ]] = df['feature_idx'].apply(
-        lambda x: get_test_score(X_train, X_test, y_train, y_test, x, logreg)
+        lambda x: get_test_score(X_train, X_test, y_train, y_test, x, curr_classifier)
     ).apply(pd.Series)
 
     return df
@@ -87,7 +87,7 @@ if __name__ == '__main__':
     results_folder = 'Results'
     if not os.path.exists(results_folder):
         os.makedirs(results_folder)
-        
+
     print('Writing data to a shelve file')
     results = shelve.open(os.path.join('Results', file_name))
     results['logistic'] = logreg_sfs
