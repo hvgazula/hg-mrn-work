@@ -13,7 +13,8 @@ jobs_folder = 'job_scripts'
 if not os.path.exists(jobs_folder):
     os.makedirs(jobs_folder)
 
-max_runs = 50
+max_runs = 10
+folder_index = 2
 
 print('Writing job submission script files')
 for run_index in range(1, max_runs + 1):
@@ -22,7 +23,7 @@ for run_index in range(1, max_runs + 1):
     with open(os.path.join(jobs_folder, file_name), 'w') as fsub:
         fsub.write('echo \'Running \' $0')
         fsub.write('\n')
-        fsub.write('python sequential_selection.py {}'.format(
+        fsub.write('python sequential_selection.py {} {}'.format(folder_index, 
             run_index))
 
     st = os.stat(os.path.join(jobs_folder, file_name))
