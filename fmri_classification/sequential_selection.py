@@ -41,7 +41,7 @@ def get_test_score(X_train, X_test, y_train, y_test, curr_feature_set,
 def perform_sfs(curr_classifier, X_train, X_test, y_train, y_test):
     sfs1 = SFS(
         curr_classifier,
-        k_features=X_train.shape[1],
+        k_features=50,
         verbose=0,
         forward=True,
         floating=False,
@@ -64,7 +64,7 @@ if __name__ == '__main__':
     data_folder = int(sys.argv[1])
     run_number = int(sys.argv[2])
 
-    logging.basicConfig(level=logging.DEBUG, filename="Results_Data_Part_02.log", filemode="a+",
+    logging.basicConfig(level=logging.DEBUG, filename="Results_Data_Part_02_20180621.log", filemode="a+",
                         format="%(asctime)-15s %(levelname)-8s %(message)s")
 
     folder_tag = '{:02}-{:03}'.format(data_folder, run_number)
