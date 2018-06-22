@@ -16,6 +16,7 @@ if not os.path.exists(jobs_folder):
 max_runs = 30
 folder_index = 2
 
+count = 0
 print('Writing job submission script files')
 for run_index in range(1, max_runs + 1):
 
@@ -29,10 +30,14 @@ for run_index in range(1, max_runs + 1):
     st = os.stat(os.path.join(jobs_folder, file_name))
     os.chmod(os.path.join(jobs_folder, file_name), st.st_mode | stat.S_IEXEC)
 
-    with open('job.sh', 'a') as fjob:
+    main_file = 'job_{:02}'.format(count)
+    with open(main_file, 'a') as fjob:
         fjob.write('screen -dm bash ' + os.path.join(jobs_folder, file_name))
         fjob.write('\n')
 
-print('Creating the main job.sh file')
-st = os.stat('job.sh')
-os.chmod('job.sh', st.st_mode | stat.S_IEXEC)
+    if not run_index%10:
+        print('created file: {}'.format(main_file))
+        st = os.stat(main_file)
+        os.chmod(main_file, st.st_mode | stat.S_IEXEC)
+        count += 1
+
