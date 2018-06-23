@@ -14,7 +14,7 @@ if not os.path.exists(jobs_folder):
     os.makedirs(jobs_folder)
 
 max_runs = 30
-folder_index = 2
+folder_index = 1
 
 count = 0
 print('Writing job submission script files')
@@ -40,4 +40,3 @@ for run_index in range(1, max_runs + 1):
         st = os.stat(main_file)
         os.chmod(main_file, st.st_mode | stat.S_IEXEC)
         count += 1
-

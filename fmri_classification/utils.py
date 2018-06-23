@@ -32,7 +32,7 @@ def return_X_and_y(folder_name):
 
 def write_results(classifier_df, classifier_name, folder_tag):
 # %% Write to a file
-    results_folder = 'Results_20180622/{}'.format(classifier_name)
+    results_folder = 'Results_01-100-20180623/{}'.format(classifier_name)
     if not os.path.exists(results_folder):
         os.makedirs(results_folder)
         

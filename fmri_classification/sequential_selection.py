@@ -68,7 +68,7 @@ if __name__ == '__main__':
 
     logging.basicConfig(
         level=logging.DEBUG,
-        filename="Results_Data_Part_02_20180622.log",
+        filename="Results_01-100-20180623.log",
         filemode="a+",
         format="%(asctime)-15s %(levelname)-8s %(message)s")
 
