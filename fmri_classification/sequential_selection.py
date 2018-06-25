@@ -66,45 +66,50 @@ if __name__ == '__main__':
     data_folder = int(sys.argv[1])
     run_number = int(sys.argv[2])
 
+    host = socket.gethostname()
+    n_features = 100
+    n_runs = 30
+
+    file_string = "Results_{:02}-{}-{}-{}.log".format(data_folder, n_features,
+                                                      n_runs, host)
+
     logging.basicConfig(
         level=logging.DEBUG,
-        filename="Results_01-100-20180623.log",
+        filename=file_string,
         filemode="a+",
         format="%(asctime)-15s %(levelname)-8s %(message)s")
 
     folder_tag = '{:02}-{:03}'.format(data_folder, run_number)
-    host = socket.gethostname()
-    
-#    logging.info("Running with 100 features, includes kNN and excludes LDA")
-#    logging.info("Results are in folder named Results_20180622")
 
-    logging.info('Run:{:03}, Host:{:10} Loading data'.format(
-        run_number, host))
+    logging.info('Run:{:03}, Host:{:10} Loading data'.format(run_number, host))
     X, y = return_X_and_y('Part_{:02}'.format(data_folder))
 
-    logging.info('Run:{:03}, Host:{:10} Splitting data'.format(
-        run_number, host))
+    logging.info(
+        'Run:{:03}, Host:{:10} Splitting data'.format(run_number, host))
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.10)
 
-    logging.info('Run:{:03}, Host:{:10} Running Logistic Regression'.format(run_number, host))
+    logging.info('Run:{:03}, Host:{:10} Running Logistic Regression'.format(
+        run_number, host))
     logreg = LogisticRegression()
     logreg_sfs = perform_sfs(logreg, X_train, X_test, y_train, y_test)
-    logging.info('Run:{:03}, Host:{:10} Writing output Logistic Regression'.format(
-        run_number, host))
+    logging.info('Run:{:03}, Host:{:10} Writing output Logistic Regression'.
+                 format(run_number, host))
     write_results(logreg_sfs, 'logistic', folder_tag)
 
-    logging.info('Run:{:03}, Host:{:10} Running Linear SVM'.format(run_number, host))
+    logging.info(
+        'Run:{:03}, Host:{:10} Running Linear SVM'.format(run_number, host))
     simple_svm = LinearSVC()
     simple_svm_sfs = perform_sfs(simple_svm, X_train, X_test, y_train, y_test)
-    logging.info(
-        'Run:{:03}, Host:{:10} Writing output Linear SVM'.format(run_number, host))
+    logging.info('Run:{:03}, Host:{:10} Writing output Linear SVM'.format(
+        run_number, host))
     write_results(simple_svm_sfs, 'simple_svm', folder_tag)
 
-    logging.info('Run:{:03}, Host:{:10} Running Radial SVM'.format(run_number, host))
+    logging.info(
+        'Run:{:03}, Host:{:10} Running Radial SVM'.format(run_number, host))
     radial_svm = SVC()
     radial_svm_sfs = perform_sfs(radial_svm, X_train, X_test, y_train, y_test)
-    logging.info(
-        'Run:{:03}, Host:{:10} Writing ouput Radial SVM'.format(run_number, host))
+    logging.info('Run:{:03}, Host:{:10} Writing ouput Radial SVM'.format(
+        run_number, host))
     write_results(radial_svm_sfs, 'radial_svm', folder_tag)
 
     logging.info('Run:{:03}, Host:{:10} Running kNN'.format(run_number, host))

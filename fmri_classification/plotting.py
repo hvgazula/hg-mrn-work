@@ -56,7 +56,7 @@ if __name__ == '__main__':
         except ValueError:
             results_code = folder.split('_')[-1]
             data_set, features_selected, runs = results_code.split('-')
-        
+
         for key in classifier_dict.keys():
             try:
                 sub_directory = os.path.join(folder, key, '*.dat')
