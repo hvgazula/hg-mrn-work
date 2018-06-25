@@ -33,26 +33,30 @@ if __name__ == '__main__':
 
     sns.set()
 
-    output_file = 'test.pdf'
+    output_file = 'Results.pdf'
     pdf = matplotlib.backends.backend_pdf.PdfPages(output_file)
 
     classifier_dict = {
         'knn': 'K Nearest Neighbors (K = 5)',
         'lda': 'Linear Discriminant Analysis',
         'logistic': 'Logistic Regression',
-        'simple_svm': 'Linear SVM',
         'radial_svm': 'RBF SVM',
+        'simple_svm': 'Linear SVM'
     }
 
     # Folder List
-    select_dir = os.path.join('/Users/Harshvardhan/Downloads', 'Results*')
+    select_dir = os.path.join(os.getcwd(), 'Results*')
     dir_contents = glob.glob(select_dir)
     results_folders = filter(os.path.isdir, dir_contents)
 
     for folder in results_folders:
-        results_code = folder.split('_')[1]
-        data_set, features_selected, runs = results_code.split('-')
-
+        try:
+            results_code = folder.split('_')[1]
+            data_set, features_selected, runs = results_code.split('-')
+        except ValueError:
+            results_code = folder.split('_')[-1]
+            data_set, features_selected, runs = results_code.split('-')
+        
         for key in classifier_dict.keys():
             try:
                 sub_directory = os.path.join(folder, key, '*.dat')
