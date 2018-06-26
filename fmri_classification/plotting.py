@@ -121,6 +121,21 @@ if __name__ == '__main__':
                             classifier_dict[key], data_set, features_selected))
                     pdf.savefig(index_fig)
                     plt.close(index_fig)
+                    
+                    # Print max_validation versus max_test score with feature number annotated
+                    test_val_scores_fig, ax = plt.figure()
+                    for df in df_list:
+                        
+                        ax.scatter()
+                        ax.annotate
+                        ax.xlabel('Validation Score')
+                        ax.ylabel('Test Score')
+                        ax.title(plt.title(
+                            '{} (Dataset = {}, Features selected = {})'.format(
+                                classifier_dict[key], data_set, features_selected)))
+                        
+                    pdf.savefig(index_fig)
+                    plt.close(index_fig)
 
             except Exception as e:
                 print(e)
