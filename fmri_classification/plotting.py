@@ -33,7 +33,7 @@ if __name__ == '__main__':
 
     sns.set()
 
-    output_file = 'Results.pdf'
+    output_file = 'Results_test.pdf'
     pdf = matplotlib.backends.backend_pdf.PdfPages(output_file)
 
     classifier_dict = {
@@ -45,7 +45,8 @@ if __name__ == '__main__':
     }
 
     # Folder List
-    select_dir = os.path.join(os.getcwd(), 'Results*')
+    select_dir = os.path.join(os.getcwd(),
+                              '/Users/Harshvardhan/Downloads/Results*')
     dir_contents = glob.glob(select_dir)
     results_folders = filter(os.path.isdir, dir_contents)
 
@@ -90,6 +91,7 @@ if __name__ == '__main__':
                 # Print Performance Criterion Plots
                 performance_criterion = ['accuracy', 'f1_score']
                 for criterion in performance_criterion:
+                    print(criterion)
                     fig = plt.figure()
                     curr_df = [df[criterion] for df in df_list]
                     concat_df = pd.concat(curr_df, axis=1)
@@ -121,21 +123,29 @@ if __name__ == '__main__':
                             classifier_dict[key], data_set, features_selected))
                     pdf.savefig(index_fig)
                     plt.close(index_fig)
-                    
+
                     # Print max_validation versus max_test score with feature number annotated
-                    test_val_scores_fig, ax = plt.figure()
+                    x, y, idx = [], [], []
                     for df in df_list:
-                        
-                        ax.scatter()
-                        ax.annotate
-                        ax.xlabel('Validation Score')
-                        ax.ylabel('Test Score')
-                        ax.title(plt.title(
-                            '{} (Dataset = {}, Features selected = {})'.format(
-                                classifier_dict[key], data_set, features_selected)))
-                        
-                    pdf.savefig(index_fig)
-                    plt.close(index_fig)
+                        curr_idx = df['avg_score'].idxmax()
+                        idx.append(curr_idx)
+                        x.append(df.loc[curr_idx, 'avg_score'])
+                        y.append(df.loc[curr_idx, criterion])
+
+                    fig1, ax = plt.subplots()
+                    plt.xlabel('Validation Score', axes=ax)
+                    plt.ylabel('Test Score ({})'.format(criterion), axes=ax)
+                    plt.title(
+                        '{} (Dataset = {}, Features selected = {})'.format(
+                            classifier_dict[key], data_set, features_selected))
+                    ax.scatter(x, y)
+
+                    #    print((idx, x, y))
+                    for i, val in enumerate(idx):
+                        ax.annotate(val, (x[i], y[i]))
+
+                    pdf.savefig(fig1)
+                    plt.close(fig1)
 
             except Exception as e:
                 print(e)
