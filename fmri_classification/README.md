@@ -1,2 +1,2 @@
-# fmri_classification_armin
+# fmri_classification
 # test it out adsd
