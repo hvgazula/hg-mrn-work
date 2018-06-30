@@ -1,0 +1,290 @@
+2018-06-21 16:55:50,812 INFO     Loading data from run: 007
+2018-06-21 16:55:50,813 INFO     Loading data from run: 006
+2018-06-21 16:55:50,825 INFO     Loading data from run: 001
+2018-06-21 16:55:50,825 INFO     Loading data from run: 010
+2018-06-21 16:55:50,825 INFO     Loading data from run: 009
+2018-06-21 16:55:50,825 INFO     Loading data from run: 008
+2018-06-21 16:55:50,825 INFO     Loading data from run: 002
+2018-06-21 16:55:50,826 INFO     Loading data from run: 005
+2018-06-21 16:55:50,826 INFO     Loading data from run: 004
+2018-06-21 16:55:50,857 INFO     Loading data from run: 003
+2018-06-21 16:55:50,923 INFO     Splitting data from run: 007
+2018-06-21 16:55:50,924 INFO     Splitting data from run: 010
+2018-06-21 16:55:50,927 INFO     Splitting data from run: 001
+2018-06-21 16:55:50,927 INFO     Splitting data from run: 005
+2018-06-21 16:55:50,933 INFO     Splitting data from run: 006
+2018-06-21 16:55:50,937 INFO     Splitting data from run: 008
+2018-06-21 16:55:50,938 INFO     Splitting data from run: 009
+2018-06-21 16:55:50,939 INFO     Splitting data from run: 002
+2018-06-21 16:55:50,940 INFO     Splitting data from run: 004
+2018-06-21 16:55:50,952 INFO     Splitting data from run: 003
+2018-06-21 16:55:50,957 INFO     Run: 005 - Running Logistic Regression
+2018-06-21 16:55:50,960 INFO     Run: 010 - Running Logistic Regression
+2018-06-21 16:55:50,967 INFO     Run: 007 - Running Logistic Regression
+2018-06-21 16:55:50,979 INFO     Run: 001 - Running Logistic Regression
+2018-06-21 16:55:50,981 INFO     Run: 003 - Running Logistic Regression
+2018-06-21 16:55:50,988 INFO     Run: 006 - Running Logistic Regression
+2018-06-21 16:55:50,997 INFO     Run: 009 - Running Logistic Regression
+2018-06-21 16:55:50,999 INFO     Run: 002 - Running Logistic Regression
+2018-06-21 16:55:51,001 INFO     Run: 004 - Running Logistic Regression
+2018-06-21 16:55:51,006 INFO     Run: 008 - Running Logistic Regression
+2018-06-21 16:56:38,830 INFO     Loading data from run: 017
+2018-06-21 16:56:38,831 INFO     Loading data from run: 011
+2018-06-21 16:56:38,831 INFO     Loading data from run: 020
+2018-06-21 16:56:38,831 INFO     Loading data from run: 016
+2018-06-21 16:56:38,831 INFO     Loading data from run: 015
+2018-06-21 16:56:38,831 INFO     Loading data from run: 012
+2018-06-21 16:56:38,832 INFO     Loading data from run: 014
+2018-06-21 16:56:38,846 INFO     Loading data from run: 013
+2018-06-21 16:56:38,846 INFO     Loading data from run: 019
+2018-06-21 16:56:38,849 INFO     Loading data from run: 018
+2018-06-21 16:56:39,001 INFO     Splitting data from run: 015
+2018-06-21 16:56:39,002 INFO     Splitting data from run: 013
+2018-06-21 16:56:39,002 INFO     Splitting data from run: 012
+2018-06-21 16:56:39,002 INFO     Splitting data from run: 011
+2018-06-21 16:56:39,002 INFO     Splitting data from run: 020
+2018-06-21 16:56:39,002 INFO     Splitting data from run: 018
+2018-06-21 16:56:39,002 INFO     Splitting data from run: 016
+2018-06-21 16:56:39,002 INFO     Splitting data from run: 019
+2018-06-21 16:56:39,002 INFO     Splitting data from run: 014
+2018-06-21 16:56:39,005 INFO     Splitting data from run: 017
+2018-06-21 16:56:39,034 INFO     Run: 013 - Running Logistic Regression
+2018-06-21 16:56:39,035 INFO     Run: 018 - Running Logistic Regression
+2018-06-21 16:56:39,036 INFO     Run: 015 - Running Logistic Regression
+2018-06-21 16:56:39,044 INFO     Run: 011 - Running Logistic Regression
+2018-06-21 16:56:39,044 INFO     Run: 014 - Running Logistic Regression
+2018-06-21 16:56:39,044 INFO     Run: 012 - Running Logistic Regression
+2018-06-21 16:56:39,046 INFO     Run: 020 - Running Logistic Regression
+2018-06-21 16:56:39,047 INFO     Run: 016 - Running Logistic Regression
+2018-06-21 16:56:39,048 INFO     Run: 019 - Running Logistic Regression
+2018-06-21 16:56:39,049 INFO     Run: 017 - Running Logistic Regression
+2018-06-21 16:57:49,628 INFO     Loading data from run: 028
+2018-06-21 16:57:49,628 INFO     Loading data from run: 023
+2018-06-21 16:57:49,647 INFO     Loading data from run: 026
+2018-06-21 16:57:49,647 INFO     Loading data from run: 030
+2018-06-21 16:57:49,648 INFO     Loading data from run: 025
+2018-06-21 16:57:49,648 INFO     Loading data from run: 027
+2018-06-21 16:57:49,648 INFO     Loading data from run: 022
+2018-06-21 16:57:49,648 INFO     Loading data from run: 029
+2018-06-21 16:57:49,648 INFO     Loading data from run: 024
+2018-06-21 16:57:49,648 INFO     Loading data from run: 021
+2018-06-21 16:57:49,744 INFO     Splitting data from run: 026
+2018-06-21 16:57:49,744 INFO     Splitting data from run: 028
+2018-06-21 16:57:49,752 INFO     Splitting data from run: 029
+2018-06-21 16:57:49,767 INFO     Splitting data from run: 025
+2018-06-21 16:57:49,767 INFO     Run: 026 - Running Logistic Regression
+2018-06-21 16:57:49,769 INFO     Run: 028 - Running Logistic Regression
+2018-06-21 16:57:49,769 INFO     Splitting data from run: 027
+2018-06-21 16:57:49,773 INFO     Splitting data from run: 022
+2018-06-21 16:57:49,775 INFO     Run: 029 - Running Logistic Regression
+2018-06-21 16:57:49,777 INFO     Splitting data from run: 030
+2018-06-21 16:57:49,778 INFO     Splitting data from run: 023
+2018-06-21 16:57:49,792 INFO     Splitting data from run: 021
+2018-06-21 16:57:49,798 INFO     Splitting data from run: 024
+2018-06-21 16:57:49,798 INFO     Run: 022 - Running Logistic Regression
+2018-06-21 16:57:49,801 INFO     Run: 030 - Running Logistic Regression
+2018-06-21 16:57:49,807 INFO     Run: 023 - Running Logistic Regression
+2018-06-21 16:57:49,809 INFO     Run: 025 - Running Logistic Regression
+2018-06-21 16:57:49,812 INFO     Run: 027 - Running Logistic Regression
+2018-06-21 16:57:49,822 INFO     Run: 024 - Running Logistic Regression
+2018-06-21 16:57:49,827 INFO     Run: 021 - Running Logistic Regression
+2018-06-21 17:14:48,505 INFO     Run: 005 - Writing output from Logistic Regression
+2018-06-21 17:14:48,618 INFO     Run: 005 - Running Linear SVM
+2018-06-21 17:14:57,785 INFO     Run: 015 - Writing output from Logistic Regression
+2018-06-21 17:14:57,932 INFO     Run: 015 - Running Linear SVM
+2018-06-21 17:15:04,082 INFO     Run: 007 - Writing output from Logistic Regression
+2018-06-21 17:15:04,177 INFO     Run: 007 - Running Linear SVM
+2018-06-21 17:15:04,341 INFO     Run: 016 - Writing output from Logistic Regression
+2018-06-21 17:15:04,448 INFO     Run: 016 - Running Linear SVM
+2018-06-21 17:15:12,749 INFO     Run: 006 - Writing output from Logistic Regression
+2018-06-21 17:15:12,863 INFO     Run: 006 - Running Linear SVM
+2018-06-21 17:15:24,986 INFO     Run: 003 - Writing output from Logistic Regression
+2018-06-21 17:15:25,097 INFO     Run: 003 - Running Linear SVM
+2018-06-21 17:15:25,697 INFO     Run: 013 - Writing output from Logistic Regression
+2018-06-21 17:15:25,819 INFO     Run: 013 - Running Linear SVM
+2018-06-21 17:15:27,492 INFO     Run: 019 - Writing output from Logistic Regression
+2018-06-21 17:15:27,574 INFO     Run: 019 - Running Linear SVM
+2018-06-21 17:15:41,879 INFO     Run: 001 - Writing output from Logistic Regression
+2018-06-21 17:15:41,993 INFO     Run: 001 - Running Linear SVM
+2018-06-21 17:15:58,625 INFO     Run: 010 - Writing output from Logistic Regression
+2018-06-21 17:15:58,715 INFO     Run: 010 - Running Linear SVM
+2018-06-21 17:16:15,983 INFO     Run: 009 - Writing output from Logistic Regression
+2018-06-21 17:16:16,088 INFO     Run: 009 - Running Linear SVM
+2018-06-21 17:16:27,249 INFO     Run: 012 - Writing output from Logistic Regression
+2018-06-21 17:16:27,358 INFO     Run: 012 - Running Linear SVM
+2018-06-21 17:16:33,602 INFO     Run: 011 - Writing output from Logistic Regression
+2018-06-21 17:16:33,707 INFO     Run: 011 - Running Linear SVM
+2018-06-21 17:16:51,862 INFO     Run: 008 - Writing output from Logistic Regression
+2018-06-21 17:16:51,952 INFO     Run: 008 - Running Linear SVM
+2018-06-21 17:16:59,704 INFO     Run: 017 - Writing output from Logistic Regression
+2018-06-21 17:16:59,811 INFO     Run: 017 - Running Linear SVM
+2018-06-21 17:17:23,021 INFO     Run: 002 - Writing output from Logistic Regression
+2018-06-21 17:17:23,120 INFO     Run: 002 - Running Linear SVM
+2018-06-21 17:17:51,047 INFO     Run: 020 - Writing output from Logistic Regression
+2018-06-21 17:17:51,154 INFO     Run: 020 - Running Linear SVM
+2018-06-21 17:18:14,040 INFO     Run: 023 - Writing output from Logistic Regression
+2018-06-21 17:18:14,152 INFO     Run: 023 - Running Linear SVM
+2018-06-21 17:19:43,121 INFO     Run: 029 - Writing output from Logistic Regression
+2018-06-21 17:19:43,229 INFO     Run: 029 - Running Linear SVM
+2018-06-21 17:19:47,835 INFO     Run: 021 - Writing output from Logistic Regression
+2018-06-21 17:19:47,942 INFO     Run: 021 - Running Linear SVM
+2018-06-21 17:19:49,686 INFO     Run: 024 - Writing output from Logistic Regression
+2018-06-21 17:19:49,782 INFO     Run: 024 - Running Linear SVM
+2018-06-21 17:20:19,724 INFO     Run: 025 - Writing output from Logistic Regression
+2018-06-21 17:20:19,831 INFO     Run: 025 - Running Linear SVM
+2018-06-21 17:20:21,710 INFO     Run: 022 - Writing output from Logistic Regression
+2018-06-21 17:20:21,833 INFO     Run: 022 - Running Linear SVM
+2018-06-21 17:20:25,620 INFO     Run: 026 - Writing output from Logistic Regression
+2018-06-21 17:20:25,718 INFO     Run: 026 - Running Linear SVM
+2018-06-21 17:21:20,549 INFO     Run: 027 - Writing output from Logistic Regression
+2018-06-21 17:21:20,655 INFO     Run: 027 - Running Linear SVM
+2018-06-21 17:21:28,140 INFO     Run: 028 - Writing output from Logistic Regression
+2018-06-21 17:21:28,225 INFO     Run: 028 - Running Linear SVM
+2018-06-21 17:21:49,793 INFO     Run: 030 - Writing output from Logistic Regression
+2018-06-21 17:21:49,904 INFO     Run: 030 - Running Linear SVM
+2018-06-21 18:46:11,603 INFO     Run: 024 - Writing ouput from Linear SVM
+2018-06-21 18:46:11,731 INFO     Run: 024 - Running Radial SVM
+2018-06-21 18:51:36,476 INFO     Run: 021 - Writing ouput from Linear SVM
+2018-06-21 18:51:36,583 INFO     Run: 021 - Running Radial SVM
+2018-06-21 18:57:59,519 INFO     Run: 022 - Writing ouput from Linear SVM
+2018-06-21 18:57:59,624 INFO     Run: 022 - Running Radial SVM
+2018-06-21 18:58:30,794 INFO     Run: 027 - Writing ouput from Linear SVM
+2018-06-21 18:58:30,903 INFO     Run: 027 - Running Radial SVM
+2018-06-21 18:58:47,366 INFO     Run: 026 - Writing ouput from Linear SVM
+2018-06-21 18:58:47,459 INFO     Run: 026 - Running Radial SVM
+2018-06-21 18:59:25,778 INFO     Run: 023 - Writing ouput from Linear SVM
+2018-06-21 18:59:25,872 INFO     Run: 023 - Running Radial SVM
+2018-06-21 18:59:39,030 INFO     Run: 025 - Writing ouput from Linear SVM
+2018-06-21 18:59:39,122 INFO     Run: 025 - Running Radial SVM
+2018-06-21 19:00:51,352 INFO     Run: 028 - Writing ouput from Linear SVM
+2018-06-21 19:00:51,462 INFO     Run: 028 - Running Radial SVM
+2018-06-21 19:01:26,146 INFO     Run: 029 - Writing ouput from Linear SVM
+2018-06-21 19:01:26,259 INFO     Run: 029 - Running Radial SVM
+2018-06-21 19:04:15,717 INFO     Run: 030 - Writing ouput from Linear SVM
+2018-06-21 19:04:15,814 INFO     Run: 030 - Running Radial SVM
+2018-06-21 19:39:58,359 INFO     Run: 024 - Writing ouput from Radial SVM
+2018-06-21 19:39:58,482 INFO     Run: 024 - Running Linear Discriminant Analysis
+2018-06-21 19:40:07,800 INFO     Run: 021 - Writing ouput from Radial SVM
+2018-06-21 19:40:07,891 INFO     Run: 021 - Running Linear Discriminant Analysis
+2018-06-21 19:43:48,809 INFO     Run: 027 - Writing ouput from Radial SVM
+2018-06-21 19:43:48,922 INFO     Run: 027 - Running Linear Discriminant Analysis
+2018-06-21 19:45:59,298 INFO     Run: 025 - Writing ouput from Radial SVM
+2018-06-21 19:45:59,425 INFO     Run: 025 - Running Linear Discriminant Analysis
+2018-06-21 19:46:37,972 INFO     Run: 026 - Writing ouput from Radial SVM
+2018-06-21 19:46:38,087 INFO     Run: 026 - Running Linear Discriminant Analysis
+2018-06-21 19:47:22,049 INFO     Run: 023 - Writing ouput from Radial SVM
+2018-06-21 19:47:22,190 INFO     Run: 023 - Running Linear Discriminant Analysis
+2018-06-21 19:47:34,276 INFO     Run: 022 - Writing ouput from Radial SVM
+2018-06-21 19:47:34,385 INFO     Run: 022 - Running Linear Discriminant Analysis
+2018-06-21 19:51:08,889 INFO     Run: 029 - Writing ouput from Radial SVM
+2018-06-21 19:51:09,008 INFO     Run: 029 - Running Linear Discriminant Analysis
+2018-06-21 19:52:51,400 INFO     Run: 028 - Writing ouput from Radial SVM
+2018-06-21 19:52:51,510 INFO     Run: 028 - Running Linear Discriminant Analysis
+2018-06-21 19:56:57,826 INFO     Run: 030 - Writing ouput from Radial SVM
+2018-06-21 19:56:57,930 INFO     Run: 030 - Running Linear Discriminant Analysis
+2018-06-21 20:58:38,091 INFO     Run: 016 - Writing ouput from Linear SVM
+2018-06-21 20:58:38,231 INFO     Run: 016 - Running Radial SVM
+2018-06-21 20:59:07,713 INFO     Run: 014 - Writing ouput from Linear SVM
+2018-06-21 20:59:07,822 INFO     Run: 014 - Running Radial SVM
+2018-06-21 21:00:25,211 INFO     Run: 001 - Writing ouput from Linear SVM
+2018-06-21 21:00:25,318 INFO     Run: 001 - Running Radial SVM
+2018-06-21 21:00:34,231 INFO     Run: 013 - Writing ouput from Linear SVM
+2018-06-21 21:00:34,322 INFO     Run: 013 - Running Radial SVM
+2018-06-21 21:00:47,670 INFO     Run: 015 - Writing ouput from Linear SVM
+2018-06-21 21:00:47,769 INFO     Run: 015 - Running Radial SVM
+2018-06-21 21:03:06,903 INFO     Run: 019 - Writing ouput from Linear SVM
+2018-06-21 21:03:07,012 INFO     Run: 019 - Running Radial SVM
+2018-06-21 21:04:58,244 INFO     Run: 012 - Writing ouput from Linear SVM
+2018-06-21 21:04:58,338 INFO     Run: 012 - Running Radial SVM
+2018-06-21 21:08:31,930 INFO     Run: 011 - Writing ouput from Linear SVM
+2018-06-21 21:08:32,037 INFO     Run: 011 - Running Radial SVM
+2018-06-21 21:09:23,583 INFO     Run: 002 - Writing ouput from Linear SVM
+2018-06-21 21:09:23,676 INFO     Run: 002 - Running Radial SVM
+2018-06-21 21:12:35,914 INFO     Run: 005 - Writing ouput from Linear SVM
+2018-06-21 21:12:36,009 INFO     Run: 005 - Running Radial SVM
+2018-06-21 21:13:33,331 INFO     Run: 003 - Writing ouput from Linear SVM
+2018-06-21 21:13:33,430 INFO     Run: 003 - Running Radial SVM
+2018-06-21 21:14:20,746 INFO     Run: 017 - Writing ouput from Linear SVM
+2018-06-21 21:14:20,849 INFO     Run: 017 - Running Radial SVM
+2018-06-21 21:16:05,529 INFO     Run: 009 - Writing ouput from Linear SVM
+2018-06-21 21:16:05,633 INFO     Run: 009 - Running Radial SVM
+2018-06-21 21:16:35,365 INFO     Run: 007 - Writing ouput from Linear SVM
+2018-06-21 21:16:35,454 INFO     Run: 007 - Running Radial SVM
+2018-06-21 21:24:12,665 INFO     Run: 004 - Writing ouput from Linear SVM
+2018-06-21 21:24:12,765 INFO     Run: 004 - Running Radial SVM
+2018-06-21 21:30:01,787 INFO     Run: 010 - Writing ouput from Linear SVM
+2018-06-21 21:30:01,894 INFO     Run: 010 - Running Radial SVM
+2018-06-21 21:31:57,104 INFO     Run: 006 - Writing ouput from Linear SVM
+2018-06-21 21:31:57,205 INFO     Run: 006 - Running Radial SVM
+2018-06-21 21:32:51,595 INFO     Run: 018 - Writing ouput from Linear SVM
+2018-06-21 21:32:51,702 INFO     Run: 018 - Running Radial SVM
+2018-06-21 21:44:08,956 INFO     Run: 008 - Writing ouput from Linear SVM
+2018-06-21 21:44:09,058 INFO     Run: 008 - Running Radial SVM
+2018-06-21 23:28:52,767 INFO     Run: 016 - Writing ouput from Radial SVM
+2018-06-21 23:28:52,888 INFO     Run: 016 - Running Linear Discriminant Analysis
+2018-06-21 23:29:56,707 INFO     Run: 015 - Writing ouput from Radial SVM
+2018-06-21 23:29:56,821 INFO     Run: 015 - Running Linear Discriminant Analysis
+2018-06-21 23:33:12,914 INFO     Run: 014 - Writing ouput from Radial SVM
+2018-06-21 23:33:13,029 INFO     Run: 014 - Running Linear Discriminant Analysis
+2018-06-21 23:37:21,256 INFO     Run: 013 - Writing ouput from Radial SVM
+2018-06-21 23:37:21,360 INFO     Run: 013 - Running Linear Discriminant Analysis
+2018-06-21 23:38:07,670 INFO     Run: 001 - Writing ouput from Radial SVM
+2018-06-21 23:38:07,762 INFO     Run: 001 - Running Linear Discriminant Analysis
+2018-06-21 23:46:57,852 INFO     Run: 005 - Writing ouput from Radial SVM
+2018-06-21 23:46:57,948 INFO     Run: 005 - Running Linear Discriminant Analysis
+2018-06-21 23:49:59,934 INFO     Run: 002 - Writing ouput from Radial SVM
+2018-06-21 23:50:00,042 INFO     Run: 002 - Running Linear Discriminant Analysis
+2018-06-21 23:50:55,303 INFO     Run: 020 - Writing ouput from Radial SVM
+2018-06-21 23:50:55,408 INFO     Run: 020 - Running Linear Discriminant Analysis
+2018-06-21 23:51:47,306 INFO     Run: 003 - Writing ouput from Radial SVM
+2018-06-21 23:51:47,407 INFO     Run: 003 - Running Linear Discriminant Analysis
+2018-06-21 23:55:15,234 INFO     Run: 011 - Writing ouput from Radial SVM
+2018-06-21 23:55:15,357 INFO     Run: 011 - Running Linear Discriminant Analysis
+2018-06-22 00:03:27,836 INFO     Run: 009 - Writing ouput from Radial SVM
+2018-06-22 00:03:27,958 INFO     Run: 009 - Running Linear Discriminant Analysis
+2018-06-22 00:03:50,306 INFO     Run: 007 - Writing ouput from Radial SVM
+2018-06-22 00:03:50,427 INFO     Run: 007 - Running Linear Discriminant Analysis
+2018-06-22 00:06:54,725 INFO     Run: 019 - Writing ouput from Radial SVM
+2018-06-22 00:06:54,881 INFO     Run: 019 - Running Linear Discriminant Analysis
+2018-06-22 00:17:42,427 INFO     Run: 017 - Writing ouput from Radial SVM
+2018-06-22 00:17:42,572 INFO     Run: 017 - Running Linear Discriminant Analysis
+2018-06-22 00:22:37,931 INFO     Run: 004 - Writing ouput from Radial SVM
+2018-06-22 00:22:38,042 INFO     Run: 004 - Running Linear Discriminant Analysis
+2018-06-22 00:45:32,432 INFO     Run: 010 - Writing ouput from Radial SVM
+2018-06-22 00:45:32,529 INFO     Run: 010 - Running Linear Discriminant Analysis
+2018-06-22 01:07:29,266 INFO     Run: 006 - Writing ouput from Radial SVM
+2018-06-22 01:07:29,363 INFO     Run: 006 - Running Linear Discriminant Analysis
+2018-06-22 01:34:43,689 INFO     Run: 018 - Writing ouput from Radial SVM
+2018-06-22 01:34:43,816 INFO     Run: 018 - Running Linear Discriminant Analysis
+2018-06-22 01:39:52,866 INFO     Run: 008 - Writing ouput from Radial SVM
+2018-06-22 01:39:52,990 INFO     Run: 008 - Running Linear Discriminant Analysis
+2018-06-22 03:50:51,844 INFO     Run: 021 - Writing ouput from LDA
+2018-06-22 03:55:48,444 INFO     Run: 024 - Writing ouput from LDA
+2018-06-22 04:37:01,367 INFO     Run: 026 - Writing ouput from LDA
+2018-06-22 04:40:51,148 INFO     Run: 023 - Writing ouput from LDA
+2018-06-22 05:07:36,779 INFO     Run: 028 - Writing ouput from LDA
+2018-06-22 05:15:21,606 INFO     Run: 027 - Writing ouput from LDA
+2018-06-22 05:27:29,297 INFO     Run: 025 - Writing ouput from LDA
+2018-06-22 05:30:33,891 INFO     Run: 022 - Writing ouput from LDA
+2018-06-22 05:33:15,585 INFO     Run: 029 - Writing ouput from LDA
+2018-06-22 05:34:30,224 INFO     Run: 030 - Writing ouput from LDA
+2018-06-22 06:45:42,751 INFO     Run: 001 - Writing ouput from LDA
+2018-06-22 06:48:53,422 INFO     Run: 016 - Writing ouput from LDA
+2018-06-22 06:57:36,871 INFO     Run: 015 - Writing ouput from LDA
+2018-06-22 07:04:25,895 INFO     Run: 014 - Writing ouput from LDA
+2018-06-22 07:08:36,434 INFO     Run: 005 - Writing ouput from LDA
+2018-06-22 07:09:59,687 INFO     Run: 013 - Writing ouput from LDA
+2018-06-22 07:17:05,676 INFO     Run: 002 - Writing ouput from LDA
+2018-06-22 07:18:26,010 INFO     Run: 003 - Writing ouput from LDA
+2018-06-22 07:25:41,393 INFO     Run: 020 - Writing ouput from LDA
+2018-06-22 07:26:11,326 INFO     Run: 012 - Writing ouput from LDA
+2018-06-22 07:30:40,581 INFO     Run: 011 - Writing ouput from LDA
+2018-06-22 07:37:02,180 INFO     Run: 009 - Writing ouput from LDA
+2018-06-22 07:37:18,088 INFO     Run: 007 - Writing ouput from LDA
+2018-06-22 07:37:46,793 INFO     Run: 019 - Writing ouput from LDA
+2018-06-22 07:43:33,581 INFO     Run: 017 - Writing ouput from LDA
+2018-06-22 07:52:54,863 INFO     Run: 004 - Writing ouput from LDA
+2018-06-22 07:57:04,673 INFO     Run: 018 - Writing ouput from LDA
+2018-06-22 08:05:21,441 INFO     Run: 010 - Writing ouput from LDA
+2018-06-22 08:14:41,937 INFO     Run: 006 - Writing ouput from LDA
+2018-06-22 08:21:09,063 INFO     Run: 008 - Writing ouput from LDA
