@@ -18,9 +18,3 @@ y_new = y[y < 2]
 logreg = LogisticRegression()
 logreg.fit(x_new, y_new)
 print (logreg.coef_)
-
-# Decentralized Logistic Regression
-site0_x = x[y == 0, :]
-site0_y = y[y == 0]
-site1_x = x[y == 1, :]
-site1_y = y[y == 1]
