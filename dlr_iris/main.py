@@ -5,21 +5,22 @@ Created on Wed Jan 16 09:49:23 2019
 
 @author: Harshvardhan
 """
+from sklearn import datasets
+from sklearn.linear_model import LogisticRegression
 
-import numpy as np
-import pandas as pd
-import os
-from sklearn.preprocessing import LabelEncoder
+iris = datasets.load_iris()
+x = iris.data
+y = iris.target
 
-DATA_PATH = 'data'
-DATA_FILE = 'iris.data'
+x_new = x[y < 2, :]
+y_new = y[y < 2]
 
-col_names = ['sl', 'sw', 'pl', 'pw', 'labels']
+logreg = LogisticRegression()
+logreg.fit(x_new, y_new)
+print (logreg.coef_)
 
-df_data = pd.read_csv(os.path.join(DATA_PATH, DATA_FILE), header=0, names=col_names)
-le = LabelEncoder()
-le.fit(df_data['labels'])
-
-
-
-
+# Decentralized Logistic Regression
+site0_x = x[y == 0, :]
+site0_y = y[y == 0]
+site1_x = x[y == 1, :]
+site1_y = y[y == 1]
