@@ -15,6 +15,9 @@ y = iris.target
 x_new = x[y < 2, :]
 y_new = y[y < 2]
 
+# Pooled
 logreg = LogisticRegression()
 logreg.fit(x_new, y_new)
 print (logreg.coef_)
+
+# Gradient Descent
