@@ -19,16 +19,16 @@ def gottol(v, tol=1e-5):
 
 def gradient(weights, X, y, lamb=0.0):
     """Computes the gradient"""
-    hthetaofx = 1/(1 + np.exp(-1*np.dot(X, weights.reshape(-1, 1))))
+    hthetaofx = 1/(1 + np.exp(-1 * np.dot(X, weights.reshape(-1, 1))))
     bac = hthetaofx - y
     bac1 = np.dot(bac.T, X)
     bac2 = (1 / len(X)) * bac1 + lamb * weights
     return bac2
 
 
-def pooled(X, y):        
+def pooled(X, y):
     logreg = LogisticRegression()
-    logreg.fit(X, y.values.ravel())
+    logreg.fit(X, y.ravel())
     print (logreg.coef_)
     return None
 
@@ -132,4 +132,4 @@ if __name__ == "__main__":
     
     pooled(x_new, y_new)
     gd_for(w, x_new, y_new)
-    adam(x_new, y_new.reshape(-1,1))
+#    adam(x_new, y_new.reshape(-1,1))
