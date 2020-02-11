@@ -200,6 +200,19 @@ def nadam(X, y):
     return None
 
 
+def plot_data(admitted, not_admitted):
+    # plots
+    if isinstance(admitted, pd.DataFrame) and isinstance(not_admitted, pd.DataFrame):
+        plt.scatter(admitted.iloc[:, 0], admitted.iloc[:, 1], s=10, label='Admitted')
+        plt.scatter(not_admitted.iloc[:, 0], not_admitted.iloc[:, 1], s=10, label='Not Admitted')
+    else:
+        plt.scatter(admitted[:, 0], admitted[:, 1], s=10, label='Admitted')
+        plt.scatter(not_admitted[:, 0], not_admitted[:, 1], s=10, label='Not Admitted')
+        
+    plt.legend()
+    plt.show()
+    
+
 def clean_data():
     # load the data from the file
     data = load_data("data/marks.txt", None)
@@ -220,14 +233,6 @@ def clean_data():
     
     return X, y
   
-
-def plot_data(admitted, not_admitted):
-    # plots
-    plt.scatter(admitted.iloc[:, 0], admitted.iloc[:, 1], s=10, label='Admitted')
-    plt.scatter(not_admitted.iloc[:, 0], not_admitted.iloc[:, 1], s=10, label='Not Admitted')
-    plt.legend()
-    plt.show()
-    
     
 def augment_data(X, y):
         
@@ -243,11 +248,17 @@ if __name__ == "__main__":
     x = iris.data
     y = iris.target
     
-    x_new = x[y < 2, :]
+    x_new = x[y < 2, :2]
     y_new = y[y < 2]
+    
+    admitted = x_new[y_new == 0, :]
+    not_admitted = x_new[y_new == 1, :]
+    
+    plot_data(admitted, not_admitted)
+    
     x_new = np.c_[np.ones((x_new.shape[0], 1)), x_new]
 
-    parameters = fit(X, y, theta)
+    parameters = fit(x_new, y_new, theta)
     
     w = np.array([0., 0., 0., 0., 0.])
     
