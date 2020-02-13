@@ -4,9 +4,10 @@ Created on Wed Jan 16 10:42:53 2019
 
 @author: hgazula
 """
-from numba import jit, prange
 import numpy as np
 from sklearn import datasets
+
+from numba import jit, prange
 
 
 #@jit(nopython=True)
@@ -18,7 +19,7 @@ def gottol(vector, tol=1e-5):
 #@jit(nopython=True)
 def gradient(weights, X, y, lamb=0.0):
     """Computes the gradient"""
-    hthetaofx = 1/(1 + np.exp(- np.dot(X, weights.reshape(-1, 1))))
+    hthetaofx = 1 / (1 + np.exp(-np.dot(X, weights.reshape(-1, 1))))
     bac = hthetaofx - y
     bac1 = np.dot(bac.T, X)
     bac2 = (1 / len(X)) * bac1 + lamb * weights
@@ -49,7 +50,6 @@ def multishot_gd(X1, y1, X2, y2):
         grad_local1 = gradient(wp, X1, y1, lamb=0)
         grad_local2 = gradient(wp, X2, y2, lamb=0)
 
-
         # at remote
         grad_remote = grad_local1 + grad_local2
 
@@ -71,6 +71,7 @@ def multishot_gd(X1, y1, X2, y2):
     params = avg_beta_vector
 
     return (params)
+
 
 iris = datasets.load_iris()
 x = iris.data

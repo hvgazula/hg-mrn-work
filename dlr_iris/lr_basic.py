@@ -6,8 +6,8 @@ Created on Sun Feb  9 10:23:38 2020
 @author: hgazula
 """
 
-from sklearn import datasets
 import numpy as np
+from sklearn import datasets
 
 np.seterr(all='ignore')
 
@@ -31,7 +31,8 @@ def loss(X, y, theta):
 def add_intercept(X):
     intercept = np.ones((X.shape[0], 1))
     return np.concatenate((intercept, X), axis=1)
-    
+
+
 iris = datasets.load_iris()
 X = iris.data[:, :2]
 X = add_intercept(X)
@@ -50,7 +51,7 @@ for i in range(num_iter):
     theta -= lr * grad
     curr_loss = loss(X, y, theta)
 print(theta)
-        
+
 # while loop
 theta = np.zeros(X.shape[1])
 i = 0
@@ -62,13 +63,13 @@ while True and i < num_iter:
     prev_loss = loss(X, y, theta)
     theta -= lr * grad
     curr_loss = loss(X, y, theta)
-    
-    ldiff = abs(curr_loss-prev_loss)
+
+    ldiff = abs(curr_loss - prev_loss)
     # print(ldiff)
     if ldiff <= 1e-8 or np.isnan(ldiff):
         break
 print(theta)
-    
+
 # adam
 beta1 = 0.9
 beta2 = 0.999
@@ -88,10 +89,10 @@ while True and i < num_iter:
     v = vt / (1 - beta2**i)
     prev_loss = loss(X, y, theta)
     theta = theta - lr * m / (np.sqrt(v) + eps)
-    curr_loss = loss(X, y, theta) 
+    curr_loss = loss(X, y, theta)
     print(curr_loss)
-    
-    ldiff = abs(curr_loss-prev_loss)
+
+    ldiff = abs(curr_loss - prev_loss)
     if ldiff <= 1e-8 or np.isnan(ldiff):
         break
 print(theta)

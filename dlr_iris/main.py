@@ -5,17 +5,17 @@ Created on Wed Jan 16 09:49:23 2019
 
 @author: Harshvardhan
 """
-import numpy as np
-from sklearn import datasets
-from sklearn.linear_model import LogisticRegression
 import warnings
+
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 from scipy.optimize import fmin_tnc
-from sklearn import linear_model
-
+from sklearn import datasets, linear_model
+from sklearn.linear_model import LogisticRegression
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
+
 
 def load_data(path, header):
     marks_df = pd.read_csv(path, header=header)
@@ -39,15 +39,16 @@ def probability(theta, x):
 def cost_function(theta, x, y):
     # Computes the cost function for all the training samples
     m = x.shape[0]
-    total_cost = -(1 / m) * np.sum(
-        y * np.log(probability(theta, x)) + (1 - y) * np.log(
-            1 - probability(theta, x)))
+    total_cost = -(1 / m) * np.sum(y * np.log(probability(theta, x)) +
+                                   (1 - y) * np.log(1 - probability(theta, x)))
     return total_cost
 
 
 def fit(x, y, theta):
-    opt_weights = fmin_tnc(func=cost_function, x0=theta,
-                   fprime=gradient,args=(x, y.flatten()))
+    opt_weights = fmin_tnc(func=cost_function,
+                           x0=theta,
+                           fprime=gradient,
+                           args=(x, y.flatten()))
     return opt_weights[0]
 
 
@@ -59,7 +60,7 @@ def fit1(theta, x, y, n_iterations=10000, w_=None, eta=0):
         residuals = y_pred - y
         gradient_vector = np.dot(x.T, residuals)
         w_ -= (eta / m) * gradient_vector
-        cost = np.sum((residuals ** 2)) / (2 * m)
+        cost = np.sum((residuals**2)) / (2 * m)
         cost_.append(cost)
     return w_
 
@@ -68,7 +69,7 @@ def fit1(theta, x, y, n_iterations=10000, w_=None, eta=0):
 #     """Computes the gradient"""
 #     if y.ndim == 1:
 #         y = y.reshape(-1, 1)
-    
+
 #     hthetaofx = 1/(1 + np.exp(-1 * np.dot(X, weights.reshape(-1, 1))))
 #     bac = hthetaofx - y
 #     bac1 = np.dot(bac.T, X)
@@ -84,20 +85,30 @@ def net_input(theta, x):
 def gradient(theta, x, y):
     # Computes the gradient of the cost function at the point theta
     m = x.shape[0]
-    return (1 / m) * np.dot(x.T, sigmoid(net_input(theta,   x)) - y)
+    return (1 / m) * np.dot(x.T, sigmoid(net_input(theta, x)) - y)
 
 
 def pooled(X, y):
-    logreg = LogisticRegression(penalty='none', solver='lbfgs', max_iter=1e7, tol=1e-6)
+    logreg = LogisticRegression(penalty='none',
+                                solver='lbfgs',
+                                max_iter=1e7,
+                                tol=1e-6)
     logreg.fit(X, y.ravel())
     return logreg.coef_
 
 
 def pooled1(X, y):
-    logreg = linear_model.SGDClassifier(loss='log', penalty='l2', alpha=0, learning_rate='constant', eta0=0.01, tol=1e-6, max_iter=1e7)
+    logreg = linear_model.SGDClassifier(loss='log',
+                                        penalty='l2',
+                                        alpha=0,
+                                        learning_rate='constant',
+                                        eta0=0.01,
+                                        tol=1e-6,
+                                        max_iter=1e7)
     logreg.fit(X, y.ravel())
     return logreg.coef_
-    
+
+
 def gd_for(winit, X, y, steps=1e7, eta=0.01, tol=1e-6):
     wc = winit
 
@@ -161,57 +172,67 @@ def adam(w, X, y, steps=10000, eta=1e-2, tol=1e-8):
 
 
 def nadam(X, y):
-    beta1 = 0.99 # same as mu
-    beta2 = 0.999 # same as v
+    beta1 = 0.99  # same as mu
+    beta2 = 0.999  # same as v
     eps = 1e-8
     wp = np.zeros(X.shape[1])
     mt = np.zeros(X.shape[1])
     vt = np.zeros(X.shape[1])
-    
+
     tol = 1e-4
     eta = 1e-2
-    
+
     count = 0
-    beta1t = beta1 * (1 - 0.5 * .96 ** (count/250))
+    beta1t = beta1 * (1 - 0.5 * .96**(count / 250))
     while True:
         count = count + 1
-    
+
         # At local
         grad_remote = gradient(wp, X, y, lamb=0)
-        grad_remote = grad_remote/(1 - sum(beta1t))
-    
+        grad_remote = grad_remote / (1 - sum(beta1t))
+
         mt = beta1 * mt + (1 - beta1) * grad_remote
         vt = beta2 * vt + (1 - beta2) * (grad_remote**2)
-    
+
         m = mt / (1 - beta1**count)
         v = vt / (1 - beta2**count)
-    
+
         wc = wp - eta * m / (np.sqrt(v) + eps)
         print(wc)
-    
+
         if np.linalg.norm(wc - wp) <= tol:
             break
-    
+
         wp = wc
-    
+
     avg_beta_vector = wc
     print(avg_beta_vector)
-    
+
     return None
 
 
 def plot_data(admitted, not_admitted):
     # plots
-    if isinstance(admitted, pd.DataFrame) and isinstance(not_admitted, pd.DataFrame):
-        plt.scatter(admitted.iloc[:, 0], admitted.iloc[:, 1], s=10, label='Admitted')
-        plt.scatter(not_admitted.iloc[:, 0], not_admitted.iloc[:, 1], s=10, label='Not Admitted')
+    if isinstance(admitted, pd.DataFrame) and isinstance(
+            not_admitted, pd.DataFrame):
+        plt.scatter(admitted.iloc[:, 0],
+                    admitted.iloc[:, 1],
+                    s=10,
+                    label='Admitted')
+        plt.scatter(not_admitted.iloc[:, 0],
+                    not_admitted.iloc[:, 1],
+                    s=10,
+                    label='Not Admitted')
     else:
         plt.scatter(admitted[:, 0], admitted[:, 1], s=10, label='Admitted')
-        plt.scatter(not_admitted[:, 0], not_admitted[:, 1], s=10, label='Not Admitted')
-        
+        plt.scatter(not_admitted[:, 0],
+                    not_admitted[:, 1],
+                    s=10,
+                    label='Not Admitted')
+
     plt.legend()
     plt.show()
-    
+
 
 def clean_data():
     # load the data from the file
@@ -228,18 +249,18 @@ def clean_data():
 
     # filter out the applicants that din't get admission
     not_admitted = data.loc[y == 0]
-    
+
     plot_data(admitted, not_admitted)
-    
+
     return X, y
-  
-    
+
+
 def augment_data(X, y):
-        
+
     X = np.c_[np.ones((X.shape[0], 1)), X]
     y = y[:, np.newaxis]
     theta = np.zeros((X.shape[1], 1))
-    
+
     return X, y, theta
 
 
@@ -247,21 +268,20 @@ if __name__ == "__main__":
     iris = datasets.load_iris()
     x = iris.data
     y = iris.target
-    
+
     x_new = x[y < 2, :2]
     y_new = y[y < 2]
-    
+
     admitted = x_new[y_new == 0, :]
     not_admitted = x_new[y_new == 1, :]
-    
+
     plot_data(admitted, not_admitted)
-    
+
     x_new = np.c_[np.ones((x_new.shape[0], 1)), x_new]
 
-    parameters = fit(x_new, y_new, theta)
-    
     w = np.array([0., 0., 0., 0., 0.])
-    
+    parameters = fit(x_new, y_new, w)
+
     print("Pooled:", pooled(x_new, y_new))
     print("Pooled:", pooled1(x_new, y_new))
     print("GD_For:", gd_for(w, x_new, y_new)[0])
