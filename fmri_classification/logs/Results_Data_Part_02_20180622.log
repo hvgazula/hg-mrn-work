@@ -1,0 +1,356 @@
+2018-06-22 09:34:34,147 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:34,147 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:34,158 INFO     Run:005, Host:chalice    Loading data
+2018-06-22 09:34:34,158 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:34,158 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:34,159 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:34,160 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:34,160 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:34,160 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:34,161 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:34,161 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:34,162 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:34,162 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:34,162 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:34,163 INFO     Run:006, Host:chalice    Loading data
+2018-06-22 09:34:34,163 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:34,163 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:34,163 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:34,164 INFO     Run:002, Host:chalice    Loading data
+2018-06-22 09:34:34,164 INFO     Run:003, Host:chalice    Loading data
+2018-06-22 09:34:34,165 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:34,165 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:34,166 INFO     Run:009, Host:chalice    Loading data
+2018-06-22 09:34:34,167 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:34,168 INFO     Run:008, Host:chalice    Loading data
+2018-06-22 09:34:34,169 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:34,180 INFO     Run:007, Host:chalice    Loading data
+2018-06-22 09:34:34,181 INFO     Run:001, Host:chalice    Loading data
+2018-06-22 09:34:34,182 INFO     Run:004, Host:chalice    Loading data
+2018-06-22 09:34:34,194 INFO     Run:010, Host:chalice    Loading data
+2018-06-22 09:34:34,252 INFO     Run:005, Host:chalice    Splitting data
+2018-06-22 09:34:34,258 INFO     Run:006, Host:chalice    Splitting data
+2018-06-22 09:34:34,263 INFO     Run:002, Host:chalice    Splitting data
+2018-06-22 09:34:34,263 INFO     Run:003, Host:chalice    Splitting data
+2018-06-22 09:34:34,285 INFO     Run:009, Host:chalice    Splitting data
+2018-06-22 09:34:34,286 INFO     Run:001, Host:chalice    Splitting data
+2018-06-22 09:34:34,287 INFO     Run:008, Host:chalice    Splitting data
+2018-06-22 09:34:34,293 INFO     Run:002, Host:chalice    Running Logistic Regression
+2018-06-22 09:34:34,297 INFO     Run:005, Host:chalice    Running Logistic Regression
+2018-06-22 09:34:34,297 INFO     Run:006, Host:chalice    Running Logistic Regression
+2018-06-22 09:34:34,298 INFO     Run:007, Host:chalice    Splitting data
+2018-06-22 09:34:34,306 INFO     Run:004, Host:chalice    Splitting data
+2018-06-22 09:34:34,306 INFO     Run:010, Host:chalice    Splitting data
+2018-06-22 09:34:34,309 INFO     Run:003, Host:chalice    Running Logistic Regression
+2018-06-22 09:34:34,330 INFO     Run:001, Host:chalice    Running Logistic Regression
+2018-06-22 09:34:34,335 INFO     Run:008, Host:chalice    Running Logistic Regression
+2018-06-22 09:34:34,336 INFO     Run:009, Host:chalice    Running Logistic Regression
+2018-06-22 09:34:34,341 INFO     Run:007, Host:chalice    Running Logistic Regression
+2018-06-22 09:34:34,366 INFO     Run:004, Host:chalice    Running Logistic Regression
+2018-06-22 09:34:34,369 INFO     Run:010, Host:chalice    Running Logistic Regression
+2018-06-22 09:34:57,865 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:57,865 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:57,865 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:57,865 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:57,865 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:57,865 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:57,866 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:57,866 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:57,878 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:57,879 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:57,880 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:57,880 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:57,880 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:34:57,881 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:57,881 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:57,882 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:57,883 INFO     Run:019, Host:oeden      Loading data
+2018-06-22 09:34:57,884 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:57,885 INFO     Run:018, Host:oeden      Loading data
+2018-06-22 09:34:57,885 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:57,886 INFO     Run:017, Host:oeden      Loading data
+2018-06-22 09:34:57,887 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:57,888 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:34:57,888 INFO     Run:015, Host:oeden      Loading data
+2018-06-22 09:34:57,889 INFO     Run:016, Host:oeden      Loading data
+2018-06-22 09:34:57,890 INFO     Run:012, Host:oeden      Loading data
+2018-06-22 09:34:57,891 INFO     Run:013, Host:oeden      Loading data
+2018-06-22 09:34:57,893 INFO     Run:011, Host:oeden      Loading data
+2018-06-22 09:34:57,894 INFO     Run:020, Host:oeden      Loading data
+2018-06-22 09:34:57,895 INFO     Run:014, Host:oeden      Loading data
+2018-06-22 09:34:57,990 INFO     Run:015, Host:oeden      Splitting data
+2018-06-22 09:34:57,999 INFO     Run:018, Host:oeden      Splitting data
+2018-06-22 09:34:58,003 INFO     Run:020, Host:oeden      Splitting data
+2018-06-22 09:34:58,003 INFO     Run:016, Host:oeden      Splitting data
+2018-06-22 09:34:58,005 INFO     Run:019, Host:oeden      Splitting data
+2018-06-22 09:34:58,006 INFO     Run:017, Host:oeden      Splitting data
+2018-06-22 09:34:58,011 INFO     Run:013, Host:oeden      Splitting data
+2018-06-22 09:34:58,012 INFO     Run:012, Host:oeden      Splitting data
+2018-06-22 09:34:58,012 INFO     Run:011, Host:oeden      Splitting data
+2018-06-22 09:34:58,018 INFO     Run:015, Host:oeden      Running Logistic Regression
+2018-06-22 09:34:58,022 INFO     Run:014, Host:oeden      Splitting data
+2018-06-22 09:34:58,033 INFO     Run:016, Host:oeden      Running Logistic Regression
+2018-06-22 09:34:58,043 INFO     Run:020, Host:oeden      Running Logistic Regression
+2018-06-22 09:34:58,061 INFO     Run:018, Host:oeden      Running Logistic Regression
+2018-06-22 09:34:58,074 INFO     Run:012, Host:oeden      Running Logistic Regression
+2018-06-22 09:34:58,080 INFO     Run:019, Host:oeden      Running Logistic Regression
+2018-06-22 09:34:58,081 INFO     Run:017, Host:oeden      Running Logistic Regression
+2018-06-22 09:34:58,087 INFO     Run:013, Host:oeden      Running Logistic Regression
+2018-06-22 09:34:58,089 INFO     Run:011, Host:oeden      Running Logistic Regression
+2018-06-22 09:34:58,091 INFO     Run:014, Host:oeden      Running Logistic Regression
+2018-06-22 09:36:00,944 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:36:00,944 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:36:00,944 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:36:00,945 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:36:00,967 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:36:00,967 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:36:00,967 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:36:00,969 INFO     Run:022, Host:watson     Loading data
+2018-06-22 09:36:00,969 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:36:00,969 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:36:00,969 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:36:00,969 INFO     Run:025, Host:watson     Loading data
+2018-06-22 09:36:00,970 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:36:00,970 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:36:00,970 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:36:00,971 INFO     Run:028, Host:watson     Loading data
+2018-06-22 09:36:00,971 INFO     Running with 100 features, includes kNN and excludes LDA
+2018-06-22 09:36:00,973 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:36:00,973 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:36:00,974 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:36:00,976 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:36:00,977 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:36:00,978 INFO     Run:029, Host:watson     Loading data
+2018-06-22 09:36:00,979 INFO     Results are in folder namesd Results_20180622
+2018-06-22 09:36:00,980 INFO     Run:023, Host:watson     Loading data
+2018-06-22 09:36:00,981 INFO     Run:027, Host:watson     Loading data
+2018-06-22 09:36:00,982 INFO     Run:030, Host:watson     Loading data
+2018-06-22 09:36:00,983 INFO     Run:021, Host:watson     Loading data
+2018-06-22 09:36:00,983 INFO     Run:026, Host:watson     Loading data
+2018-06-22 09:36:00,985 INFO     Run:024, Host:watson     Loading data
+2018-06-22 09:36:01,060 INFO     Run:022, Host:watson     Splitting data
+2018-06-22 09:36:01,061 INFO     Run:025, Host:watson     Splitting data
+2018-06-22 09:36:01,064 INFO     Run:028, Host:watson     Splitting data
+2018-06-22 09:36:01,069 INFO     Run:029, Host:watson     Splitting data
+2018-06-22 09:36:01,070 INFO     Run:023, Host:watson     Splitting data
+2018-06-22 09:36:01,071 INFO     Run:027, Host:watson     Splitting data
+2018-06-22 09:36:01,082 INFO     Run:030, Host:watson     Splitting data
+2018-06-22 09:36:01,084 INFO     Run:022, Host:watson     Running Logistic Regression
+2018-06-22 09:36:01,085 INFO     Run:025, Host:watson     Running Logistic Regression
+2018-06-22 09:36:01,088 INFO     Run:028, Host:watson     Running Logistic Regression
+2018-06-22 09:36:01,093 INFO     Run:029, Host:watson     Running Logistic Regression
+2018-06-22 09:36:01,094 INFO     Run:023, Host:watson     Running Logistic Regression
+2018-06-22 09:36:01,095 INFO     Run:027, Host:watson     Running Logistic Regression
+2018-06-22 09:36:01,101 INFO     Run:026, Host:watson     Splitting data
+2018-06-22 09:36:01,105 INFO     Run:021, Host:watson     Splitting data
+2018-06-22 09:36:01,106 INFO     Run:030, Host:watson     Running Logistic Regression
+2018-06-22 09:36:01,125 INFO     Run:026, Host:watson     Running Logistic Regression
+2018-06-22 09:36:01,127 INFO     Run:024, Host:watson     Splitting data
+2018-06-22 09:36:01,129 INFO     Run:021, Host:watson     Running Logistic Regression
+2018-06-22 09:36:01,151 INFO     Run:024, Host:watson     Running Logistic Regression
+2018-06-22 10:28:48,046 INFO     Run:003, Host:chalice    Writing output Logistic Regression
+2018-06-22 10:28:48,188 INFO     Run:003, Host:chalice    Running Linear SVM
+2018-06-22 10:30:43,786 INFO     Run:019, Host:oeden      Writing output Logistic Regression
+2018-06-22 10:30:43,919 INFO     Run:019, Host:oeden      Running Linear SVM
+2018-06-22 10:31:43,667 INFO     Run:018, Host:oeden      Writing output Logistic Regression
+2018-06-22 10:31:43,715 INFO     Run:017, Host:oeden      Writing output Logistic Regression
+2018-06-22 10:31:43,788 INFO     Run:018, Host:oeden      Running Linear SVM
+2018-06-22 10:31:43,838 INFO     Run:017, Host:oeden      Running Linear SVM
+2018-06-22 10:31:45,658 INFO     Run:012, Host:oeden      Writing output Logistic Regression
+2018-06-22 10:31:45,760 INFO     Run:012, Host:oeden      Running Linear SVM
+2018-06-22 10:32:10,759 INFO     Run:011, Host:oeden      Writing output Logistic Regression
+2018-06-22 10:32:10,859 INFO     Run:011, Host:oeden      Running Linear SVM
+2018-06-22 10:32:20,402 INFO     Run:016, Host:oeden      Writing output Logistic Regression
+2018-06-22 10:32:20,515 INFO     Run:016, Host:oeden      Running Linear SVM
+2018-06-22 10:32:32,115 INFO     Run:010, Host:chalice    Writing output Logistic Regression
+2018-06-22 10:32:32,217 INFO     Run:010, Host:chalice    Running Linear SVM
+2018-06-22 10:32:55,853 INFO     Run:007, Host:chalice    Writing output Logistic Regression
+2018-06-22 10:32:55,947 INFO     Run:007, Host:chalice    Running Linear SVM
+2018-06-22 10:33:10,632 INFO     Run:001, Host:chalice    Writing output Logistic Regression
+2018-06-22 10:33:10,789 INFO     Run:001, Host:chalice    Running Linear SVM
+2018-06-22 10:33:12,296 INFO     Run:006, Host:chalice    Writing output Logistic Regression
+2018-06-22 10:33:12,386 INFO     Run:006, Host:chalice    Running Linear SVM
+2018-06-22 10:33:16,320 INFO     Run:008, Host:chalice    Writing output Logistic Regression
+2018-06-22 10:33:16,417 INFO     Run:008, Host:chalice    Running Linear SVM
+2018-06-22 10:33:22,860 INFO     Run:013, Host:oeden      Writing output Logistic Regression
+2018-06-22 10:33:22,987 INFO     Run:013, Host:oeden      Running Linear SVM
+2018-06-22 10:34:15,407 INFO     Run:009, Host:chalice    Writing output Logistic Regression
+2018-06-22 10:34:15,522 INFO     Run:009, Host:chalice    Running Linear SVM
+2018-06-22 10:34:29,887 INFO     Run:004, Host:chalice    Writing output Logistic Regression
+2018-06-22 10:34:29,985 INFO     Run:004, Host:chalice    Running Linear SVM
+2018-06-22 10:37:05,131 INFO     Run:005, Host:chalice    Writing output Logistic Regression
+2018-06-22 10:37:05,243 INFO     Run:005, Host:chalice    Running Linear SVM
+2018-06-22 10:37:28,504 INFO     Run:020, Host:oeden      Writing output Logistic Regression
+2018-06-22 10:37:28,623 INFO     Run:020, Host:oeden      Running Linear SVM
+2018-06-22 10:37:29,413 INFO     Run:014, Host:oeden      Writing output Logistic Regression
+2018-06-22 10:37:29,515 INFO     Run:014, Host:oeden      Running Linear SVM
+2018-06-22 10:38:07,322 INFO     Run:002, Host:chalice    Writing output Logistic Regression
+2018-06-22 10:38:07,433 INFO     Run:002, Host:chalice    Running Linear SVM
+2018-06-22 10:59:01,703 INFO     Run:022, Host:watson     Writing output Logistic Regression
+2018-06-22 10:59:01,824 INFO     Run:022, Host:watson     Running Linear SVM
+2018-06-22 11:10:53,758 INFO     Run:023, Host:watson     Writing output Logistic Regression
+2018-06-22 11:10:53,884 INFO     Run:023, Host:watson     Running Linear SVM
+2018-06-22 11:11:11,491 INFO     Run:030, Host:watson     Writing output Logistic Regression
+2018-06-22 11:11:11,593 INFO     Run:030, Host:watson     Running Linear SVM
+2018-06-22 11:11:14,738 INFO     Run:021, Host:watson     Writing output Logistic Regression
+2018-06-22 11:11:14,825 INFO     Run:021, Host:watson     Running Linear SVM
+2018-06-22 11:11:42,868 INFO     Run:029, Host:watson     Writing output Logistic Regression
+2018-06-22 11:11:42,960 INFO     Run:029, Host:watson     Running Linear SVM
+2018-06-22 11:13:56,230 INFO     Run:025, Host:watson     Writing output Logistic Regression
+2018-06-22 11:13:56,334 INFO     Run:025, Host:watson     Running Linear SVM
+2018-06-22 11:14:21,745 INFO     Run:024, Host:watson     Writing output Logistic Regression
+2018-06-22 11:14:21,845 INFO     Run:024, Host:watson     Running Linear SVM
+2018-06-22 11:14:49,982 INFO     Run:028, Host:watson     Writing output Logistic Regression
+2018-06-22 11:14:50,086 INFO     Run:028, Host:watson     Running Linear SVM
+2018-06-22 11:15:00,696 INFO     Run:027, Host:watson     Writing output Logistic Regression
+2018-06-22 11:15:00,831 INFO     Run:027, Host:watson     Running Linear SVM
+2018-06-22 11:15:46,115 INFO     Run:026, Host:watson     Writing output Logistic Regression
+2018-06-22 11:15:46,214 INFO     Run:026, Host:watson     Running Linear SVM
+2018-06-22 18:18:01,471 INFO     Run:029, Host:watson     Writing output Linear SVM
+2018-06-22 18:18:01,590 INFO     Run:029, Host:watson     Running Radial SVM
+2018-06-22 18:23:29,202 INFO     Run:022, Host:watson     Writing output Linear SVM
+2018-06-22 18:23:29,307 INFO     Run:022, Host:watson     Running Radial SVM
+2018-06-22 18:35:30,036 INFO     Run:025, Host:watson     Writing output Linear SVM
+2018-06-22 18:35:30,139 INFO     Run:025, Host:watson     Running Radial SVM
+2018-06-22 18:37:57,994 INFO     Run:024, Host:watson     Writing output Linear SVM
+2018-06-22 18:37:58,115 INFO     Run:024, Host:watson     Running Radial SVM
+2018-06-22 18:39:09,296 INFO     Run:030, Host:watson     Writing output Linear SVM
+2018-06-22 18:39:09,399 INFO     Run:030, Host:watson     Running Radial SVM
+2018-06-22 18:40:59,388 INFO     Run:027, Host:watson     Writing output Linear SVM
+2018-06-22 18:40:59,485 INFO     Run:027, Host:watson     Running Radial SVM
+2018-06-22 18:43:06,522 INFO     Run:028, Host:watson     Writing output Linear SVM
+2018-06-22 18:43:06,630 INFO     Run:028, Host:watson     Running Radial SVM
+2018-06-22 18:48:26,461 INFO     Run:026, Host:watson     Writing output Linear SVM
+2018-06-22 18:48:26,552 INFO     Run:026, Host:watson     Running Radial SVM
+2018-06-22 18:48:35,818 INFO     Run:021, Host:watson     Writing output Linear SVM
+2018-06-22 18:48:35,901 INFO     Run:021, Host:watson     Running Radial SVM
+2018-06-22 18:49:04,972 INFO     Run:023, Host:watson     Writing output Linear SVM
+2018-06-22 18:49:05,074 INFO     Run:023, Host:watson     Running Radial SVM
+2018-06-22 20:33:24,346 INFO     Run:029, Host:watson     Writing ouput Radial SVM
+2018-06-22 20:33:24,468 INFO     Run:029, Host:watson     Running kNN
+2018-06-22 20:36:42,509 INFO     Run:022, Host:watson     Writing ouput Radial SVM
+2018-06-22 20:36:42,635 INFO     Run:022, Host:watson     Running kNN
+2018-06-22 20:39:10,424 INFO     Run:024, Host:watson     Writing ouput Radial SVM
+2018-06-22 20:39:10,519 INFO     Run:024, Host:watson     Running kNN
+2018-06-22 20:40:15,971 INFO     Run:027, Host:watson     Writing ouput Radial SVM
+2018-06-22 20:40:16,070 INFO     Run:027, Host:watson     Running kNN
+2018-06-22 20:40:32,613 INFO     Run:030, Host:watson     Writing ouput Radial SVM
+2018-06-22 20:40:32,704 INFO     Run:030, Host:watson     Running kNN
+2018-06-22 20:42:16,956 INFO     Run:025, Host:watson     Writing ouput Radial SVM
+2018-06-22 20:42:17,050 INFO     Run:025, Host:watson     Running kNN
+2018-06-22 20:43:31,400 INFO     Run:028, Host:watson     Writing ouput Radial SVM
+2018-06-22 20:43:31,513 INFO     Run:028, Host:watson     Running kNN
+2018-06-22 20:43:42,400 INFO     Run:026, Host:watson     Writing ouput Radial SVM
+2018-06-22 20:43:42,479 INFO     Run:026, Host:watson     Running kNN
+2018-06-22 20:44:55,528 INFO     Run:023, Host:watson     Writing ouput Radial SVM
+2018-06-22 20:44:55,637 INFO     Run:023, Host:watson     Running kNN
+2018-06-22 20:45:49,248 INFO     Run:021, Host:watson     Writing ouput Radial SVM
+2018-06-22 20:45:49,340 INFO     Run:021, Host:watson     Running kNN
+2018-06-22 21:14:14,780 INFO     Run:029, Host:watson     Writing ouput kNN
+2018-06-22 21:18:19,509 INFO     Run:022, Host:watson     Writing ouput kNN
+2018-06-22 21:18:35,737 INFO     Run:024, Host:watson     Writing ouput kNN
+2018-06-22 21:18:49,707 INFO     Run:027, Host:watson     Writing ouput kNN
+2018-06-22 21:20:02,013 INFO     Run:030, Host:watson     Writing ouput kNN
+2018-06-22 21:21:02,944 INFO     Run:025, Host:watson     Writing ouput kNN
+2018-06-22 21:22:00,781 INFO     Run:023, Host:watson     Writing ouput kNN
+2018-06-22 21:22:28,340 INFO     Run:028, Host:watson     Writing ouput kNN
+2018-06-22 21:22:36,838 INFO     Run:026, Host:watson     Writing ouput kNN
+2018-06-22 21:23:07,195 INFO     Run:021, Host:watson     Writing ouput kNN
+2018-06-22 23:45:04,046 INFO     Run:011, Host:oeden      Writing output Linear SVM
+2018-06-22 23:45:04,166 INFO     Run:011, Host:oeden      Running Radial SVM
+2018-06-22 23:54:48,585 INFO     Run:015, Host:oeden      Writing output Linear SVM
+2018-06-22 23:54:48,706 INFO     Run:015, Host:oeden      Running Radial SVM
+2018-06-23 00:03:57,205 INFO     Run:018, Host:oeden      Writing output Linear SVM
+2018-06-23 00:03:57,334 INFO     Run:018, Host:oeden      Running Radial SVM
+2018-06-23 00:04:28,212 INFO     Run:019, Host:oeden      Writing output Linear SVM
+2018-06-23 00:04:28,307 INFO     Run:019, Host:oeden      Running Radial SVM
+2018-06-23 00:06:18,469 INFO     Run:020, Host:oeden      Writing output Linear SVM
+2018-06-23 00:06:18,599 INFO     Run:020, Host:oeden      Running Radial SVM
+2018-06-23 00:10:54,496 INFO     Run:012, Host:oeden      Writing output Linear SVM
+2018-06-23 00:10:54,618 INFO     Run:012, Host:oeden      Running Radial SVM
+2018-06-23 00:11:43,273 INFO     Run:008, Host:chalice    Writing output Linear SVM
+2018-06-23 00:11:43,373 INFO     Run:008, Host:chalice    Running Radial SVM
+2018-06-23 00:13:43,498 INFO     Run:006, Host:chalice    Writing output Linear SVM
+2018-06-23 00:13:43,609 INFO     Run:006, Host:chalice    Running Radial SVM
+2018-06-23 00:20:39,457 INFO     Run:017, Host:oeden      Writing output Linear SVM
+2018-06-23 00:20:39,570 INFO     Run:017, Host:oeden      Running Radial SVM
+2018-06-23 00:20:53,407 INFO     Run:004, Host:chalice    Writing output Linear SVM
+2018-06-23 00:20:53,501 INFO     Run:004, Host:chalice    Running Radial SVM
+2018-06-23 00:22:43,073 INFO     Run:016, Host:oeden      Writing output Linear SVM
+2018-06-23 00:22:43,191 INFO     Run:016, Host:oeden      Running Radial SVM
+2018-06-23 00:23:54,499 INFO     Run:003, Host:chalice    Writing output Linear SVM
+2018-06-23 00:23:54,597 INFO     Run:003, Host:chalice    Running Radial SVM
+2018-06-23 00:27:50,054 INFO     Run:014, Host:oeden      Writing output Linear SVM
+2018-06-23 00:27:50,176 INFO     Run:014, Host:oeden      Running Radial SVM
+2018-06-23 00:32:08,304 INFO     Run:001, Host:chalice    Writing output Linear SVM
+2018-06-23 00:32:08,402 INFO     Run:001, Host:chalice    Running Radial SVM
+2018-06-23 00:32:29,136 INFO     Run:009, Host:chalice    Writing output Linear SVM
+2018-06-23 00:32:29,236 INFO     Run:009, Host:chalice    Running Radial SVM
+2018-06-23 00:38:16,156 INFO     Run:013, Host:oeden      Writing output Linear SVM
+2018-06-23 00:38:16,265 INFO     Run:013, Host:oeden      Running Radial SVM
+2018-06-23 00:41:34,387 INFO     Run:010, Host:chalice    Writing output Linear SVM
+2018-06-23 00:41:34,508 INFO     Run:010, Host:chalice    Running Radial SVM
+2018-06-23 00:43:06,716 INFO     Run:007, Host:chalice    Writing output Linear SVM
+2018-06-23 00:43:06,820 INFO     Run:007, Host:chalice    Running Radial SVM
+2018-06-23 00:50:34,982 INFO     Run:005, Host:chalice    Writing output Linear SVM
+2018-06-23 00:50:35,076 INFO     Run:005, Host:chalice    Running Radial SVM
+2018-06-23 06:40:06,229 INFO     Run:011, Host:oeden      Writing ouput Radial SVM
+2018-06-23 06:40:06,422 INFO     Run:011, Host:oeden      Running kNN
+2018-06-23 06:45:27,645 INFO     Run:015, Host:oeden      Writing ouput Radial SVM
+2018-06-23 06:45:27,817 INFO     Run:015, Host:oeden      Running kNN
+2018-06-23 06:52:06,724 INFO     Run:018, Host:oeden      Writing ouput Radial SVM
+2018-06-23 06:52:06,846 INFO     Run:018, Host:oeden      Running kNN
+2018-06-23 06:53:07,966 INFO     Run:020, Host:oeden      Writing ouput Radial SVM
+2018-06-23 06:53:08,177 INFO     Run:020, Host:oeden      Running kNN
+2018-06-23 06:54:07,476 INFO     Run:012, Host:oeden      Writing ouput Radial SVM
+2018-06-23 06:54:07,583 INFO     Run:012, Host:oeden      Running kNN
+2018-06-23 06:54:10,050 INFO     Run:019, Host:oeden      Writing ouput Radial SVM
+2018-06-23 06:54:10,168 INFO     Run:019, Host:oeden      Running kNN
+2018-06-23 07:05:49,342 INFO     Run:014, Host:oeden      Writing ouput Radial SVM
+2018-06-23 07:05:49,454 INFO     Run:014, Host:oeden      Running kNN
+2018-06-23 07:06:20,701 INFO     Run:016, Host:oeden      Writing ouput Radial SVM
+2018-06-23 07:06:20,795 INFO     Run:016, Host:oeden      Running kNN
+2018-06-23 07:06:45,776 INFO     Run:017, Host:oeden      Writing ouput Radial SVM
+2018-06-23 07:06:45,881 INFO     Run:017, Host:oeden      Running kNN
+2018-06-23 07:08:42,428 INFO     Run:008, Host:chalice    Writing ouput Radial SVM
+2018-06-23 07:08:42,544 INFO     Run:008, Host:chalice    Running kNN
+2018-06-23 07:09:47,123 INFO     Run:004, Host:chalice    Writing ouput Radial SVM
+2018-06-23 07:09:47,237 INFO     Run:004, Host:chalice    Running kNN
+2018-06-23 07:11:04,912 INFO     Run:013, Host:oeden      Writing ouput Radial SVM
+2018-06-23 07:11:05,023 INFO     Run:013, Host:oeden      Running kNN
+2018-06-23 07:12:33,305 INFO     Run:006, Host:chalice    Writing ouput Radial SVM
+2018-06-23 07:12:33,416 INFO     Run:006, Host:chalice    Running kNN
+2018-06-23 07:14:54,259 INFO     Run:003, Host:chalice    Writing ouput Radial SVM
+2018-06-23 07:14:54,358 INFO     Run:003, Host:chalice    Running kNN
+2018-06-23 07:17:59,352 INFO     Run:002, Host:chalice    Writing ouput Radial SVM
+2018-06-23 07:17:59,457 INFO     Run:002, Host:chalice    Running kNN
+2018-06-23 07:21:46,281 INFO     Run:001, Host:chalice    Writing ouput Radial SVM
+2018-06-23 07:21:46,380 INFO     Run:001, Host:chalice    Running kNN
+2018-06-23 07:25:47,560 INFO     Run:009, Host:chalice    Writing ouput Radial SVM
+2018-06-23 07:25:47,651 INFO     Run:009, Host:chalice    Running kNN
+2018-06-23 07:28:46,487 INFO     Run:007, Host:chalice    Writing ouput Radial SVM
+2018-06-23 07:28:46,579 INFO     Run:007, Host:chalice    Running kNN
+2018-06-23 07:28:50,713 INFO     Run:010, Host:chalice    Writing ouput Radial SVM
+2018-06-23 07:28:50,858 INFO     Run:010, Host:chalice    Running kNN
+2018-06-23 07:30:23,283 INFO     Run:005, Host:chalice    Writing ouput Radial SVM
+2018-06-23 07:30:23,381 INFO     Run:005, Host:chalice    Running kNN
+2018-06-23 09:10:06,075 INFO     Run:018, Host:oeden      Writing ouput kNN
+2018-06-23 09:13:39,746 INFO     Run:011, Host:oeden      Writing ouput kNN
+2018-06-23 09:14:17,889 INFO     Run:012, Host:oeden      Writing ouput kNN
+2018-06-23 09:15:49,531 INFO     Run:015, Host:oeden      Writing ouput kNN
+2018-06-23 09:16:15,403 INFO     Run:020, Host:oeden      Writing ouput kNN
+2018-06-23 09:17:25,044 INFO     Run:019, Host:oeden      Writing ouput kNN
+2018-06-23 09:23:30,204 INFO     Run:016, Host:oeden      Writing ouput kNN
+2018-06-23 09:24:05,139 INFO     Run:017, Host:oeden      Writing ouput kNN
+2018-06-23 09:26:25,365 INFO     Run:014, Host:oeden      Writing ouput kNN
+2018-06-23 09:27:24,031 INFO     Run:013, Host:oeden      Writing ouput kNN
+2018-06-23 09:39:31,455 INFO     Run:004, Host:chalice    Writing ouput kNN
+2018-06-23 09:40:29,965 INFO     Run:008, Host:chalice    Writing ouput kNN
+2018-06-23 09:41:22,337 INFO     Run:006, Host:chalice    Writing ouput kNN
+2018-06-23 09:41:29,026 INFO     Run:003, Host:chalice    Writing ouput kNN
+2018-06-23 09:44:05,126 INFO     Run:002, Host:chalice    Writing ouput kNN
+2018-06-23 09:46:27,420 INFO     Run:001, Host:chalice    Writing ouput kNN
+2018-06-23 09:48:27,814 INFO     Run:009, Host:chalice    Writing ouput kNN
+2018-06-23 09:50:59,626 INFO     Run:007, Host:chalice    Writing ouput kNN
+2018-06-23 09:51:14,638 INFO     Run:010, Host:chalice    Writing ouput kNN
+2018-06-23 09:51:24,120 INFO     Run:005, Host:chalice    Writing ouput kNN
